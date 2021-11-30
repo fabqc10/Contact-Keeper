@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://fabio1234:fabio1234@cluster0.bh5ul.mongodb.net/agenda?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+}
