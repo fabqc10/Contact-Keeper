@@ -46,7 +46,7 @@ const AuthState = props =>{
     const register = async formData=>{
         const config={
             headers:{
-                'Content-Type':'application/json'
+                "Content-Type":"application/json"
             }
         }
 
@@ -89,7 +89,7 @@ const AuthState = props =>{
         } catch (err) {
             dispatch({
                 type:LOGIN_FAIL,
-                payload:err.response.data.msg
+                payload: err.response.data.msg
             })
         }
     }
